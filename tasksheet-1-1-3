@@ -1,0 +1,9 @@
+class ArithmeticTask{
+    public static void main(String[] args) {
+        
+        for (int i = 1; i <= 10; i++) {
+            String message = (i % 2 == 0) ? i + " is an even number" : i + " is an odd number";
+            System.out.println(message);
+        }
+    } 
+}
